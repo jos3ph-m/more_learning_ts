@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jos3ph-m/more_learning_ts/issues"
   },
-  "homepage": "https://github.com/jos3ph-m/more_learning_ts#readme"
+  "homepage": "https://github.com/jos3ph-m/more_learning_ts#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
