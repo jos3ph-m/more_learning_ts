@@ -1,0 +1,20 @@
+{
+  "name": "03purets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jos3ph-m/more_learning_ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jos3ph-m/more_learning_ts/issues"
+  },
+  "homepage": "https://github.com/jos3ph-m/more_learning_ts#readme"
+}
