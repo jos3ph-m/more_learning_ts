@@ -7,4 +7,4 @@ class User {
     }
 }
 const joey = new User("j@jm.com", "joey");
-joey.city;
+joey.city = "Los Angeles";
