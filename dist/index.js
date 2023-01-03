@@ -5,4 +5,4 @@ class User {
         this.name = name;
     }
 }
-const joey = new User(email, "j@jm.com", name, "joey");
+const joey = new User("j@jm.com", "joey");
