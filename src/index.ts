@@ -6,3 +6,5 @@ class User {
     this.name = name;
   }
 }
+
+const joey = new User(email: "j@jm.com", name: "joey")
