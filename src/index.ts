@@ -15,7 +15,7 @@ class User {
   constructor(
     public email: string, 
     public name: string,
-    private userId: string
+    //private userId: string
     ){
 
   }
