@@ -1,5 +1,5 @@
 class User {
-  email: string
+  public email: string
   name: string
   private readonly city: string = ""
   constructor(email: string, name: string){
