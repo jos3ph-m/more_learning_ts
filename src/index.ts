@@ -14,7 +14,8 @@ class User {
   readonly city: string = ""
   constructor(
     public email: string, 
-    public name: string
+    public name: string,
+    private userId: string
     ){
 
   }

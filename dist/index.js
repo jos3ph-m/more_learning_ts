@@ -10,9 +10,10 @@
 //   }
 // }
 class User {
-    constructor(email, name) {
+    constructor(email, name, userId) {
         this.email = email;
         this.name = name;
+        this.userId = userId;
         this.city = "";
     }
 }
