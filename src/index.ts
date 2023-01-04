@@ -1,7 +1,7 @@
 class User {
   public email: string
   // everything is public by default
-  private name: string
+  #name: string
   readonly city: string = ""
   constructor(email: string, name: string){
     this.email = email;
