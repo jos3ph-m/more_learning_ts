@@ -1,6 +1,7 @@
 class User {
-  public email: string
   // everything is public by default
+  public email: string
+  
   private name: string
   readonly city: string = ""
   constructor(email: string, name: string){
