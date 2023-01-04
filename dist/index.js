@@ -11,9 +11,9 @@
 // }
 class User {
     constructor(email, name) {
-        this.city = "";
         this.email = email;
         this.name = name;
+        this.city = "";
     }
 }
 const joey = new User("j@jm.com", "joey");
