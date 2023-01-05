@@ -22,6 +22,7 @@ class User {
     get courseCount() {
         return this._courseCount;
     }
+    set courseCount(courseNumber): void { }
 }
 const joey = new User("j@jm.com", "joey");
 joey.city;

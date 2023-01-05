@@ -29,6 +29,8 @@ class User {
   get courseCount(): number {
     return this._courseCount
   }
+
+  set courseCount(courseNumber): void
 }
 
 const joey = new User("j@jm.com", "joey")
