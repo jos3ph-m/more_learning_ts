@@ -22,7 +22,11 @@ class User {
     get courseCount() {
         return this._courseCount;
     }
-    set courseCount(courseNumber) { }
+    set courseCount(courseNum) {
+        if (courseNum <= 1) {
+            throw new Error("Course count should be more than 1");
+        }
+    }
 }
 const joey = new User("j@jm.com", "joey");
 joey.city;
