@@ -15,6 +15,7 @@ class User {
         this.name = name;
         this.city = "Los Angeles";
     }
+    get getAppleEmail() { }
 }
 const joey = new User("j@jm.com", "joey");
 joey.city;

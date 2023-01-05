@@ -20,7 +20,7 @@ class User {
 
   }
 
-  getAppleEmail()
+  get getAppleEmail()
 }
 
 const joey = new User("j@jm.com", "joey")
