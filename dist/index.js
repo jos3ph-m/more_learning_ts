@@ -13,6 +13,7 @@ class User {
     constructor(email, name) {
         this.email = email;
         this.name = name;
+        this._courseCount = 1;
         this.city = "Los Angeles";
     }
     get getAppleEmail() {
