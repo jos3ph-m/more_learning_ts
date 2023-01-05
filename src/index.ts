@@ -22,6 +22,10 @@ class User {
 
   }
 
+  private deleteToken() {
+    console.log("token deleted");
+  }
+
   get getAppleEmail(): string {
     return `apple${this.email}`
   }
