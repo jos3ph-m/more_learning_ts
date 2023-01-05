@@ -26,6 +26,7 @@ class User {
         if (courseNum <= 1) {
             throw new Error("Course count should be more than 1");
         }
+        this._courseCount = courseNum;
     }
 }
 const joey = new User("j@jm.com", "joey");
