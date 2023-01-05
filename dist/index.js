@@ -20,6 +20,7 @@ class User {
         return `apple${this.email}`;
     }
     get courseCount() {
+        return this._courseCount;
     }
 }
 const joey = new User("j@jm.com", "joey");

@@ -27,7 +27,7 @@ class User {
   }
 
   get courseCount(): number {
-    
+    return this._courseCount
   }
 }
 
