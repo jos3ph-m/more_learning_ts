@@ -11,6 +11,8 @@
 
 class User {
 
+  private _courseCount
+
   readonly city: string = "Los Angeles"
   constructor(
     public email: string, 
