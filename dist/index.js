@@ -13,7 +13,7 @@ class User {
     constructor(email, name) {
         this.email = email;
         this.name = name;
-        this.city = "";
+        this.city = "Los Angeles";
     }
 }
 const joey = new User("j@jm.com", "joey");
