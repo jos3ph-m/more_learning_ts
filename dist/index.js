@@ -19,6 +19,8 @@ class User {
     get getAppleEmail() {
         return `apple${this.email}`;
     }
+    get courseCount() {
+    }
 }
 const joey = new User("j@jm.com", "joey");
 joey.city;
