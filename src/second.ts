@@ -4,4 +4,12 @@ interface TakePhoto {
   burst: number
 }
 
-class Instagram
+class Instagram implements TakePhoto {
+  constructor(
+    public cameraMode: string,
+    public filter: string,
+    public burst: number
+  ) {
+    
+  }
+}
