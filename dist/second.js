@@ -6,3 +6,5 @@ class Instagram {
         this.burst = burst;
     }
 }
+class Youtube {
+}

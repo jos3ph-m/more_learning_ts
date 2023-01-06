@@ -10,6 +10,10 @@ class Instagram implements TakePhoto {
     public filter: string,
     public burst: number
   ) {
-    
+
   }
+}
+
+class Youtube implements TakePhoto {
+  
 }
