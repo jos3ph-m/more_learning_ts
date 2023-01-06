@@ -1,1 +1,3 @@
-interface TakePhoto
+interface TakePhoto {
+  cameraMode: string
+}
