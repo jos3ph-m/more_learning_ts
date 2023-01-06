@@ -3,3 +3,5 @@ interface TakePhoto {
   filter: string
   burst: number
 }
+
+class Instagram
