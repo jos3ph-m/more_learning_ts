@@ -11,7 +11,7 @@
 
 class User {
 
-  private _courseCount = 1;
+  protected _courseCount = 1;
 
   readonly city: string = "Los Angeles"
   constructor(
