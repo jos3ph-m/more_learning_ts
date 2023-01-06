@@ -44,6 +44,9 @@ class User {
 
 class SubUser extends User {
   isFamily: boolean = true
+  changeCourseCount() {
+    
+  }
 }
 
 const joey = new User("j@jm.com", "joey")
