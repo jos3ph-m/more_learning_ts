@@ -42,5 +42,7 @@ class User {
   }
 }
 
+class SubUser extends User {}
+
 const joey = new User("j@jm.com", "joey")
 // joey.city
