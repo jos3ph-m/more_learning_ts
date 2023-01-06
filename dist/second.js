@@ -7,9 +7,10 @@ class Instagram {
     }
 }
 class Youtube {
-    constructor(cameraMode, filter, burst) {
+    constructor(cameraMode, filter, burst, short) {
         this.cameraMode = cameraMode;
         this.filter = filter;
         this.burst = burst;
+        this.short = short;
     }
 }

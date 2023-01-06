@@ -18,8 +18,9 @@ class Youtube implements TakePhoto {
   constructor(
     public cameraMode: string,
     public filter: string,
-    public burst: number
+    public burst: number,
+    public short: string
   ) {
-    
+
   }
 }
