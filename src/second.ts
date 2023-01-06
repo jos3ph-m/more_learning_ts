@@ -4,6 +4,10 @@ interface TakePhoto {
   burst: number
 }
 
+interface Story {
+  createStory(): void
+}
+
 class Instagram implements TakePhoto {
   constructor(
     public cameraMode: string,
@@ -14,7 +18,7 @@ class Instagram implements TakePhoto {
   }
 }
 
-class Youtube implements TakePhoto {
+class Youtube implements TakePhoto, Story {
   constructor(
     public cameraMode: string,
     public filter: string,
@@ -22,5 +26,9 @@ class Youtube implements TakePhoto {
     public short: string
   ) {
 
+  }
+
+  createStory(): void {
+    console.log("Story was created");
   }
 }
