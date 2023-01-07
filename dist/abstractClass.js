@@ -4,6 +4,10 @@ class TakePhoto {
         this.cameraMode = cameraMode;
         this.filter = filter;
     }
+    getReelTime() {
+        //some complex calculation
+        return 8;
+    }
 }
 class Instagram extends TakePhoto {
     constructor(cameraMode, filter, burst) {
@@ -16,4 +20,5 @@ class Instagram extends TakePhoto {
         console.log("Sepia");
     }
 }
-const joeyMed = new TakePhoto("test", "Test");
+const joeyMed = new Instagram("test", "Test", 3);
+joeyMed.getReelTime();

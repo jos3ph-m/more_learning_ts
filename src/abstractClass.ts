@@ -1,4 +1,4 @@
-class TakePhoto {
+abstract class TakePhoto {
   constructor(
     public cameraMode: string,
     public filter: string
@@ -6,7 +6,11 @@ class TakePhoto {
 
   }
 
-  // abstract getSepia(): void
+  abstract getSepia(): void
+  getReelTime(): number {
+    //some complex calculation
+    return 8
+  }
 }
 
 class Instagram extends TakePhoto{
@@ -23,5 +27,6 @@ class Instagram extends TakePhoto{
     }
 }
 
-const joeyMed = new TakePhoto("test", "Test")
+const joeyMed = new Instagram("test", "Test", 3)
 
+joeyMed.getReelTime()
