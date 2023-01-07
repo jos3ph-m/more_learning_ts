@@ -6,3 +6,7 @@ class TakePhoto {
 
   }
 }
+
+// class Instagram extends TakePhoto{
+
+// }

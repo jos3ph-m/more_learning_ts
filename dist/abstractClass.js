@@ -5,3 +5,5 @@ class TakePhoto {
         this.filter = filter;
     }
 }
+// class Instagram extends TakePhoto{
+// }
