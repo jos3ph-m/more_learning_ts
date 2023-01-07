@@ -5,6 +5,8 @@ class TakePhoto {
   ) {
 
   }
+
+  abstract getSepia(): void
 }
 
 class Instagram extends TakePhoto{
