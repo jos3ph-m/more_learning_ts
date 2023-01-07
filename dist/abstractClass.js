@@ -1,5 +1,7 @@
 "use strict";
 class TakePhoto {
-    constructor() {
+    constructor(cameraMode, filter) {
+        this.cameraMode = cameraMode;
+        this.filter = filter;
     }
 }
