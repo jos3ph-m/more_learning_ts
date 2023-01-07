@@ -7,8 +7,9 @@ class TakePhoto {
   }
 }
 
+class Instagram extends TakePhoto{
+
+}
+
 // const joeyMed = new TakePhoto("test", "Test")
 
-// class Instagram extends TakePhoto{
-
-// }
