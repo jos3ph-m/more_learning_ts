@@ -17,6 +17,10 @@ class Instagram extends TakePhoto{
     ) {
       super(cameraMode, filter)
     }
+
+    getSepia(): void {
+      console.log("Sepia");
+    }
 }
 
 const joeyMed = new TakePhoto("test", "Test")

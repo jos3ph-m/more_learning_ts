@@ -12,5 +12,8 @@ class Instagram extends TakePhoto {
         this.filter = filter;
         this.burst = burst;
     }
+    getSepia() {
+        console.log("Sepia");
+    }
 }
 const joeyMed = new TakePhoto("test", "Test");
