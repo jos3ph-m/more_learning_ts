@@ -6,5 +6,10 @@ class TakePhoto {
     }
 }
 class Instagram extends TakePhoto {
+    constructor(cameraMode, filter, burst) {
+        this.cameraMode = cameraMode;
+        this.filter = filter;
+        this.burst = burst;
+    }
 }
 const joeyMed = new TakePhoto("test", "Test");

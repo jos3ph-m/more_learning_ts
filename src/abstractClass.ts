@@ -6,11 +6,15 @@ class TakePhoto {
 
   }
 
-  abstract getSepia(): void
+  // abstract getSepia(): void
 }
 
 class Instagram extends TakePhoto{
-
+  constructor (
+    public cameraMode: string,
+    public filter: string,
+    public burst: number
+    ) {}
 }
 
 const joeyMed = new TakePhoto("test", "Test")
