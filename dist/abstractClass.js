@@ -5,5 +5,6 @@ class TakePhoto {
         this.filter = filter;
     }
 }
+const joeyMed = new TakePhoto("test", "Test");
 // class Instagram extends TakePhoto{
 // }
