@@ -24,3 +24,8 @@ function identityThree<Type>(val: Type): Type {
 function identityFour<T>(val: T): T {
   return val
 }
+
+interface Bottle{
+  brand: string,
+  type: number
+}
