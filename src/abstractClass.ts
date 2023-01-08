@@ -27,6 +27,6 @@ class Instagram extends TakePhoto{
     }
 }
 
-const joeyMed = new Instagram("test", "Test", 3)
+const joeyMed = new Instagram("test", "Test", 4)
 
 joeyMed.getReelTime()
