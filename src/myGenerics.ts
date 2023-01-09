@@ -30,4 +30,4 @@ interface Bottle{
   type: number
 }
 
-identityFour<Bottle>({})
+//identityFour<Bottle>({})
