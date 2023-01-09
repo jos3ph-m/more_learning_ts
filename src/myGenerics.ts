@@ -32,4 +32,4 @@ interface Bottle{
 
 //identityFour<Bottle>({})
 
-function getSearchProducts<T>
+function getSearchProducts<T>(products: T[]){}
