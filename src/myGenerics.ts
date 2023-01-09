@@ -38,7 +38,8 @@ function getSearchProducts<T>(products: T[]): T {
   return products[myIndex]
 }
 
-const getMoreSearchProducts = <T>(products: T[]): T => {
+// the comma is used by React developers quite a bit
+const getMoreSearchProducts = <T,>(products: T[]): T => {
   // do some database operations
   const myIndex = 4
   return products[myIndex]
