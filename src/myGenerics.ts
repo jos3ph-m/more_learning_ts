@@ -38,7 +38,7 @@ function getSearchProducts<T>(products: T[]): T {
   return products[myIndex]
 }
 
-const getMoreSearchProducts = <T>(products: T[]): T => {
+const getMoreSearchProducts = <T>(products: number[]): number => {
   // do some database operations
   const myIndex = 4
   return products[myIndex]
