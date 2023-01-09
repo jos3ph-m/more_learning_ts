@@ -35,5 +35,5 @@ interface Bottle{
 function getSearchProducts<T>(products: T[]): T {
   // do some database operations
   const myIndex = 3
-  return products[3]
+  return products[myIndex]
 }
