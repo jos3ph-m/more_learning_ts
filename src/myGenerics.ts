@@ -31,3 +31,5 @@ interface Bottle{
 }
 
 //identityFour<Bottle>({})
+
+function getSearchProducts<T>
